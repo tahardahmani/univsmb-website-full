@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Site web Titres musicaux</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="../style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Site de <span class="logo_colour">Music</span></a></h1>
+          <h2>Liste des titres de music par categorie.</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="../index.html">Accueil</a></li>
+          <li class="selected"><a href="../soiree.html">Soiree</a></li>
+          <li><a href="../deep-house.html">Deep House</a></li>
+          <li><a href="../rap.html">Rap</a></li>
+          <li><a href="../chill.html">Chill</a></li>     
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <section id="site_content">
+      <div id="content">
+        <h2>The Nights</h2>
+        <p>
+           <span><img src="../img/The Nights.jpg" width="100%" height="100%" alt="example graphic" /></span>
+        </p>
+        <p>
+         <span>
+            "The Nights" d'Avicii est une ode a la bonne humeur et aussi au pere du chanteur. Le "combat de pirates"
+        </span>
+        </p>
+      </div>
+      <h2>Laisser votre commentaire</h2>
+      <form action="#" method="post">
+        <div class="form_settings">
+          <p><textarea id="commentaire" rows="8" cols="50" name="commentaire" style="width: 450px; height: 120px;"></textarea></p>
+          <p style="padding-top: 15px"><span>&nbsp;</span><button type="submit" class="submit" name="name" value="Commenter"> Commenter </button> </p>
+        </div> 
+      </form>
+    </section>
+    <div id="content_footer"></div>
+    <div id="footer">
+      Copyright &copy; Titres musicaux | 2022</a>
+    </div>
+  </div>
+  <script src="soireee.js"> </script>
+</body>
+</html>
